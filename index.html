@@ -1,73 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-    <title>Index</title>
-      <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <title>About | Jonathan Sarro</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!-- This is my name on the page -->
-  <header>
-  <div data-role="page">
-    <div data-role="header" data-position="fixed">
-      <div class="name">Jonathan Sarro</div>
-<!-- These are the links to my other pages -->
-        <div class="links">
-          <section id="link1">
-            <a href="index.html" color="grey" target="_blank">About</a>
-          </section>
-      
-          <section id="link2">
-            <a href="portfolio.html" target="_blank">Portfolio</a>
-          </section>
-     
-          <section id="link3">
-            <a href="contact.html" target="_blank">Contact</a>
-          </section>
-        </div> 
-    </div>    
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jonathan Sarro</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-<!-- This is the background of the midsection -->
-  <div class="middle">
-<!-- This is the about me section -->  
-      <div class="about">
-          <h3>About Me</h3>
-            
-            <div class="img1">
-                <img src="./assets/images/profile_pic.jpg" width="175" height="200">
-            </div>
-
-            <div class="text">
-              <p>Hello all you cool cats and hotdogs! My name is Jonathan Sarro. I like science fiction books, death metal, comedy podcasts, and painting.</p>
-              <p>I love to debate almost any topic. For example… Season 6 of The Simpsons is the best season ever! Period. Come at me Bro!</p> 
-              <p>I’m currently learning to code at UC Berkeley extension. I hope to one day create a cool website or app with the skills I learn. This website will eventually become my awesome portfolio. Check back soon!</p>
-            </div>   
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+      <img src="./assets/images/profile_pic.jpg" class="auth-image" alt="Your Name">
+      <p>Hello all you cool cats and hotdogs! My name is Jonathan Sarro. I like science fiction books, death metal, comedy podcasts, and painting.</p>
+      <p>I love to debate almost any topic. For example… Season 6 of The Simpsons is the best season ever! Period. Come at me Bro!</p> 
+      <p>I’m currently learning to code at UC Berkeley extension. I hope to one day create a cool website or app with the skills I learn. This website will eventually become my awesome portfolio. Check back soon!</p>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="https://github.com/JSarro84"><img src="assets/images/github.jpg" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/jonathan-sarro/"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackexchange.com/users/9989805/jonathan-sarro"><img src="assets/images/stack.jpg" class="social" alt="Stack Overflow" /></a>
       </div>
-<!-- These are the links to my social media profiles -->
-      <div class="connect">            
-        <div id="me">Connect with Me</div>
-          
-          <section id="git">
-            <a href="http://www.github.com/JSarro84">
-            <img src="./assets/images/github.jpg" width="40" height="40"></a>
-          </section>
-          
-          <section id="linked">
-            <a href="http://www.linkedin.com/in/jonathan-sarro">    
-            <img src="./assets/images/linkedin.png" width="40" height="40">
-          </section>
-          
-          <section id="stack">
-            <a href="http://www.stackoverflow.com/users/7389527/jonathan-sarro">  
-            <img src="./assets/images/stack.jpg" width="40" height="40">
-          </section>   
-
-      </div>
-</body>      
-<!-- This is my footer -->
+    </section>
+  </div>
   <footer>
-    <div class="copy">© Copyright 2017 Jonathan Sarro</div>
+    <div class="container">
+      Copyright &copy; 2016 Jonathan Sarro
+    </div>
   </footer>
+</body>
 </html>
 
